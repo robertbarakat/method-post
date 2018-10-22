@@ -67,8 +67,9 @@ class AddMovie extends Component {
                             /></div>
                         <div>
                             <label htmlFor="comment">Commentaire</label>
-                            <input
-                                type="text"
+                            <textarea
+                                rows="4" 
+                                cols="50"
                                 id="comment"
                                 name="comment"
                                 onChange={this.onChange}
